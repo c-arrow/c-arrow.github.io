@@ -1,11 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('icomoon.eot');
-  src:  url('icomoon.eot') format('embedded-opentype'),
-    url('icomoon.ttf') format('truetype'),
-    url('icomoon.woff') format('woff'),
-	url('icomoon.woff2') format('woff2'),
-    url('icomoon.svg') format('svg');
+  src:  url('fonts/icomoon.eot?4c86m0');
+  src:  url('fonts/icomoon.eot?4c86m0#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4c86m0') format('truetype'),
+    url('fonts/icomoon.woff?4c86m0') format('woff'),
+    url('fonts/icomoon.svg?4c86m0#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -27,7 +26,6 @@
 
 .icon-codecademy:before {
   content: "\e900";
-  color: #1f4056;
 }
 .icon-hackerrank:before {
   content: "\e902";
