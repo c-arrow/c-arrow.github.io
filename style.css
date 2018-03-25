@@ -1,4 +1,51 @@
 @font-face {
+  font-family: "Simplifica";
+  src: url("fonts/SIMPLIFICA Typeface.ttf") format("truetype");
+}
+
+.layout {
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+}
+			
+.name {
+  font-family: 'Simplifica', sans-serif;
+  font-size: 72px;
+  /*letter-spacing: 3px;*/	
+  letter-spacing: .05em;
+  margin-right: -.1em;
+}
+
+.line {
+  width: 230px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#6ac5a9;
+  border: 0 none;
+  border-radius: 50px;
+}
+
+body {
+  background-color: #333333;
+  color: #6ac5a9;
+}
+
+i {
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+
+/********************************************************************************/
+
+@font-face {
   font-family: 'icomoon';
   src:  url('fonts/icomoon.eot?4c86m0');
   src:  url('fonts/icomoon.eot?4c86m0#iefix') format('embedded-opentype'),
@@ -24,10 +71,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-codecademy:before {
+.icon-ca:before {
   content: "\e900";
 }
-.icon-hackerrank:before {
+.icon-hr:before {
   content: "\e902";
 }
 .icon-envelope:before {
@@ -36,12 +83,12 @@
 .icon-file-pdf-o:before {
   content: "\e903";
 }
-.icon-free-code-camp:before {
+.icon-fcc:before {
   content: "\e904";
 }
-.icon-linkedin:before {
+.icon-li:before {
   content: "\e906";
 }
-.icon-github:before {
+.icon-gh:before {
   content: "\e907";
 }
