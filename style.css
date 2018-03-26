@@ -5,22 +5,21 @@
 
 .layout {
   margin: 0 auto;
-  text-align: center;
   position: absolute;
   top: 25%;
   left: 0;
   right: 0;
-  margin: auto;
   height: 300px;
   width: 300px;
+  text-align: center;
 }
 			
 .name {
   font-family: 'Simplifica', sans-serif;
   font-size: 72px;
-  /*letter-spacing: 3px;*/	
   letter-spacing: .05em;
-  margin-right: -.1em;
+  margin-left: .025em;
+  margin-right: -.025em;
 }
 
 .line {
@@ -40,7 +39,9 @@ body {
 
 i {
   font-size: 24px;
-  letter-spacing: 5px;
+  letter-spacing: .25em;
+  margin-left: .125em;
+  margin-right: -.125em;
 }
 
 /********************************************************************************/
