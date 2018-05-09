@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Simplifica";
-  src: url("fonts/SIMPLIFICA Typeface.ttf") format("truetype");
+  src: url("../fonts/SIMPLIFICA Typeface.ttf") format("truetype");
 }
 
 .layout {
@@ -32,6 +32,10 @@
   border-radius: 50px;
 }
 
+#gradient {
+  background: linear-gradient(90deg,#333333,#6ac5a9,#333333);
+}
+
 body {
   background-color: #333333;
   color: #6ac5a9;
@@ -53,15 +57,16 @@ i {
   margin-right: -.125em;
 }
 
-/********************************************************************************/
-
+/***************************/
+/*          ICONS          */
+/***************************/
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?4c86m0');
-  src:  url('fonts/icomoon.eot?4c86m0#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?4c86m0') format('truetype'),
-    url('fonts/icomoon.woff?4c86m0') format('woff'),
-    url('fonts/icomoon.svg?4c86m0#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?4c86m0');
+  src:  url('../fonts/icomoon.eot?4c86m0#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?4c86m0') format('truetype'),
+    url('../fonts/icomoon.woff?4c86m0') format('woff'),
+    url('../fonts/icomoon.svg?4c86m0#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
